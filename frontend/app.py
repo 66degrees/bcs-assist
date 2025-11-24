@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 # Page configuration
 st.set_page_config(
@@ -7,19 +8,55 @@ st.set_page_config(
     layout="wide"
 )
 
+# Get conversation_id from URL query parameters
+query_params = st.query_params
+conversation_id = query_params.get("conversation_id", None)
+
+# Store conversation_id in session state if provided
+if conversation_id:
+    st.session_state.conversation_id = conversation_id
+
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Welcome message (only show once)
 if len(st.session_state.messages) == 0:
+    welcome_msg = "👋 Welcome to BCS Assist! How can I help you today?"
+    if conversation_id:
+        welcome_msg += f"\n\n📋 Conversation ID: `{conversation_id}`"
     st.session_state.messages.append({
         "role": "assistant",
-        "content": "👋 Welcome to BCS Assist! How can I help you today?"
+        "content": welcome_msg
     })
 
 # Title
 st.title("💬 BCS Assist Chat")
+
+# Display conversation ID if present
+if conversation_id:
+    st.info(f"🔗 **Conversation ID:** `{conversation_id}`")
+
+
+iframe = """
+    <iframe 
+        width="100%" 
+        height="900" 
+        src="https://lookerstudio.google.com/embed/reporting/605e22b8-1a9d-441e-bf6f-5c115efcdee2/page/p_sw2iq48std" 
+        frameborder="0" 
+        style="border:0" 
+        allowfullscreen 
+        sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+    </iframe>
+"""
+
+components.html(iframe, height=920)
+
+# st.title("Embedded Looker Studio Dashboard")
+
+# url = "https://lookerstudio.google.com/reporting/605e22b8-1a9d-441e-bf6f-5c115efcdee2/explore?s=krrxOhZjjkQ"
+
+# components.iframe(url, height=900, scrolling=True)
 
 # Display chat messages
 for message in st.session_state.messages:
