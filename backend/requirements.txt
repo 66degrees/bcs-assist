@@ -8,3 +8,6 @@ httpx
 # For mock data generation
 Faker
 PyJWT
+
+# For Google Cloud integration
+google-cloud-bigquery

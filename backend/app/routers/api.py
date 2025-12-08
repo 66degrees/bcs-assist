@@ -10,7 +10,8 @@ conversation_controller = ConversationController()
 @router.post("/process", response_model=ProcessedConversationResponse)
 async def process_conversation(payload: MockAuthPayload):
     """
-    Orchestrates the realistic mock flow, now aligned with production data structures.
+    Accepts a conversation ID and authentication details, and returns
+    a comprehensive prep pack data object for the customer dashboard.
     """
     return await conversation_controller.process_conversation(payload)
 
