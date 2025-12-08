@@ -4,7 +4,7 @@ import random
 
 from app.models.schemas import (
     PrepPackData, NetworkRelationship, Kpi, Inhibit, Journey, Complaint,
-    ICSResult, Chart, ChartDataPoint, Transaction, ProductRevenue
+    ICSResult, Chart, ChartDataPoint, Transaction
 )
 
 fake = Faker()
