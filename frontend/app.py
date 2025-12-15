@@ -43,56 +43,64 @@ st.caption("HSBC CMB D&A - Customer Pack")
 st.divider()
 
 # --- Main Application ---
-CONVERSATION_ID = "mock-convo-12345"
-AUTH_CODE = "mock-auth-code"
-CODE_VERIFIER = "mock-code-verifier"
+# Try to get parameters from URL query params (Genesys Widget)
+query_params = st.query_params
+CONVERSATION_ID = query_params.get("conversationId", "mock-convo-12345")
+AUTH_CODE = query_params.get("code", "mock-auth-code")
+CODE_VERIFIER = query_params.get("codeVerifier", "mock-code-verifier")
 
-@st.cache_data
+if "conversationId" in query_params:
+    st.toast(f"Loaded Context for Conversation: {CONVERSATION_ID}", icon="✅")
+
+
+@st.cache_data(show_spinner=False)
 def load_data(conversation_id, auth_code, code_verifier):
     return get_prep_pack_data(conversation_id, auth_code, code_verifier)
 
-data = load_data(CONVERSATION_ID, AUTH_CODE, CODE_VERIFIER)
+if CONVERSATION_ID:
+    with st.spinner("Authenticating with Genesys & Retrieving Customer Profile..."):
+        data = load_data(CONVERSATION_ID, AUTH_CODE, CODE_VERIFIER)
 
-if data:
-    prep_pack = data.get('prep_pack_data', {})
+    if data:
+        prep_pack = data.get('prep_pack_data', {})
     
-    # --- Top Row: 3 Columns (No Cards) ---
-    col1, col2, col3 = st.columns([1.5, 2, 2], gap="large")
-    with col1:
-        render_network_relationship(prep_pack.get('network_relationship', {}))
-    with col2:
-        render_summary_text(prep_pack.get('summary_text', ''))
-    with col3:
-        render_ai_insights(prep_pack.get('ai_insights', []))
+            # --- Top Row: 3 Columns (No Cards) ---
+        col1, col2, col3 = st.columns([1.5, 2, 2], gap="large")
+        with col1:
+            render_network_relationship(prep_pack.get('network_relationship', {}))
+        with col2:
+            render_summary_text(prep_pack.get('summary_text', ''))
+        with col3:
+            render_ai_insights(prep_pack.get('ai_insights', []))
 
-    st.divider()
-    
-    # --- Middle Rows: KPIs rendered directly on the background ---
-    kpis = prep_pack.get('kpis', [])
-    
-    render_kpi_row(kpis[:5], 5)
-    st.markdown("<br>", unsafe_allow_html=True) # Spacer
-    render_kpi_row(kpis[5:], 5)
-
-    st.divider()
-
-    # --- Bottom Row: 2 Columns (No Cards) ---
-    col4, col5 = st.columns([1, 2], gap="large")
-    with col4:
-        render_inhibits(prep_pack.get('inhibits', []))
-        render_journeys(prep_pack.get('journeys', []))
-        render_complaints(prep_pack.get('complaints', []))
-        render_ics_results(prep_pack.get('ics_results', []))
-    with col5:
-        st.header("Financial Overview")
+        st.divider()
         
-        # Stack charts for more space
-        render_chart(prep_pack.get('monthly_revenue_distribution', {}), chart_type="bar")
-        render_chart(prep_pack.get('monthly_revenue_trend', {}), chart_type="line")
+        # --- Middle Rows: KPIs rendered directly on the background ---
+        kpis = prep_pack.get('kpis', [])
+        
+        render_kpi_row(kpis[:5], 5)
+        st.markdown("<br>", unsafe_allow_html=True) # Spacer
+        render_kpi_row(kpis[5:], 5)
+
         st.divider()
 
-        # Enlarge the transaction summary table
-        render_transaction_summary(prep_pack.get('transaction_volume_summary', []))
+        # --- Bottom Row: 2 Columns (No Cards) ---
+        col4, col5 = st.columns([1, 2], gap="large")
+        with col4:
+            render_inhibits(prep_pack.get('inhibits', []))
+            render_journeys(prep_pack.get('journeys', []))
+            render_complaints(prep_pack.get('complaints', []))
+            render_ics_results(prep_pack.get('ics_results', []))
+        with col5:
+            st.header("Financial Overview")
+            
+            # Stack charts for more space
+            render_chart(prep_pack.get('monthly_revenue_distribution', {}), chart_type="bar")
+            render_chart(prep_pack.get('monthly_revenue_trend', {}), chart_type="line")
+            st.divider()
+
+            # Enlarge the transaction summary table
+            render_transaction_summary(prep_pack.get('transaction_volume_summary', []))
 else:
     st.error("Failed to fetch data from the backend. Please ensure the backend server is running.")
 

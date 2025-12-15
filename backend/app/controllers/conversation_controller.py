@@ -15,24 +15,24 @@ class ConversationController:
         Orchestrates the flow of authenticating, fetching customer data,
         and generating the full prep pack data for the dashboard.
         """
-        # Step 1: Authenticate with Genesys to get an access token
+        #  Authenticate with Genesys to get an access token
         access_token = await get_genesys_auth_token(
             auth_code=payload.authorizationCode,
             code_verifier=payload.codeVerifier
         )
         
-        # Step 2: Get customer data from Genesys using the conversation ID
+        #  Get customer data from Genesys using the conversation ID
         customer_data = await get_genesys_customer_data(
             conversation_id=payload.conversationId,
             access_token=access_token
         )
         
-        # Step 3: Generate the full prep pack data for the dashboard
+        #  Generate the full prep pack data for the dashboard
         prep_pack_data = generate_prep_pack_data(
             customer_id=customer_data.customer_id
         )
         
-        # Step 4: Return the consolidated response
+        # Return the consolidated response
         return ProcessedConversationResponse(
             prep_pack_data=prep_pack_data
         )

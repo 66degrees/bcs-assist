@@ -96,7 +96,7 @@ def render_transaction_summary(transactions: List[Dict[str, Any]]):
         return
     df = pd.DataFrame(transactions)
     # Dynamically set height to make the table larger
-    height = (len(df) + 1) * 40  # Approx 40px per row
+    height = (len(df) + 1) * 40  
     st.dataframe(
         df,
         use_container_width=True,

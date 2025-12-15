@@ -1,6 +1,7 @@
 import time
 import jwt
 import os
+import requests
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -36,3 +37,45 @@ async def get_genesys_auth_token(auth_code: str, code_verifier: str) -> str:
     print("--- Mock Token Exchange Complete ---")
     return token
 
+
+# --- Real Implementation (Commented Out) ---
+# async def get_real_genesys_auth_token(auth_code: str, code_verifier: str) -> str:
+#     """
+#     Exchanges the auth code and code verifier for an access token from Genesys Cloud.
+#     """
+#     client_id = os.getenv("GENESYS_CLIENT_ID")
+#     client_secret = os.getenv("GENESYS_CLIENT_SECRET")
+#     redirect_uri = os.getenv("GENESYS_REDIRECT_URI")
+#     
+#     # Determine region from env or default to mypurecloud.com
+#     region = os.getenv("GENESYS_REGION", "mypurecloud.com")
+#     token_url = f"https://login.{region}/oauth/token"
+# 
+#     payload = {
+#         "grant_type": "authorization_code",
+#         "code": auth_code,
+#         "redirect_uri": redirect_uri,
+#         "client_id": client_id,
+#         "client_secret": client_secret,
+#         "code_verifier": code_verifier
+#     }
+# 
+#     headers = {
+#         "Content-Type": "application/x-www-form-urlencoded"
+#     }
+# 
+#     try:
+#         print(f"--- POSTing to Genesys Token Endpoint: {token_url} ---")
+#         response = requests.post(token_url, data=payload, headers=headers)
+#         response.raise_for_status()
+#         data = response.json()
+#         
+#         access_token = data.get("access_token")
+#         print("--- Successfully retrieved Access Token ---")
+#         return access_token
+#         
+#     except requests.exceptions.RequestException as e:
+#         print(f"Error fetching Genesys token: {e}")
+#         if e.response:
+#             print(f"Response Body: {e.response.text}")
+#         raise
