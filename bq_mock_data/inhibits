@@ -1,0 +1,31 @@
+inhibit_id,inhibit_name,inhibit_date,inhibit_desc,customer_id,inhibit_type,status
+INH_000001,ATM Block,2025-09-21,Inhibit placed on atm block - These trouble option not represent.,CUST_000480,Access Restriction,Active
+INH_000025,Card Block,2025-05-29,Inhibit placed on card block - Program risk heart responsibility team indeed.,CUST_000471,Access Restriction,Active
+INH_000003,International Block,2025-01-18,Inhibit placed on international block - Against deal professor sister.,CUST_000200,Payment Block,Active
+INH_000004,Online Access Block,2025-05-14,Inhibit placed on online access block - Space enter bill president cup.,CUST_000146,Regulatory Block,Active
+INH_000012,Wire Block,2025-07-04,Inhibit placed on wire block - Agree scientist system tend agree part.,CUST_000454,Security Hold,Active
+INH_000014,ATM Block,2025-01-15,Inhibit placed on atm block - Number inside tax sound least trip effect important.,CUST_000457,Access Restriction,Inactive
+INH_000005,ACH Debit Block,2024-12-14,Inhibit placed on ach debit block - Others can today.,CUST_000276,Payment Block,Inactive
+INH_000022,Online Access Block,2024-12-31,Inhibit placed on online access block - Could wall sit fact thousand suffer imagine.,CUST_000485,Payment Block,Inactive
+INH_000010,ACH Debit Block,2025-09-18,Inhibit placed on ach debit block - Again even floor wait.,CUST_000462,Security Hold,Inactive
+INH_000027,ACH Debit Block,2025-04-06,Inhibit placed on ach debit block - Put employee lose pass.,CUST_000175,Security Hold,Inactive
+INH_000009,ATM Block,2025-04-12,Inhibit placed on atm block - Bag that figure southern run hold.,CUST_000034,Access Restriction,Pending
+INH_000006,Wire Block,2025-05-28,Inhibit placed on wire block - Trial save character office.,CUST_000073,Access Restriction,Pending
+INH_000023,ACH Debit Block,2025-07-21,Inhibit placed on ach debit block - Something sure year choice nation smile individual.,CUST_000092,Access Restriction,Pending
+INH_000019,ATM Block,2025-04-10,Inhibit placed on atm block - Heavy who marriage development.,CUST_000271,Payment Block,Pending
+INH_000011,Card Block,2025-04-29,Inhibit placed on card block - Reduce within respond skill.,CUST_000437,Payment Block,Pending
+INH_000026,Online Access Block,2025-03-30,Inhibit placed on online access block - Major win other themselves loss.,CUST_000058,Payment Block,Pending
+INH_000021,Check Block,2025-05-11,Inhibit placed on check block - Himself each difficult eight baby out.,CUST_000377,Payment Block,Pending
+INH_000024,Online Access Block,2025-08-13,Inhibit placed on online access block - Scientist morning child draw.,CUST_000485,Payment Block,Pending
+INH_000013,Check Block,2025-01-05,Inhibit placed on check block - Act actually parent be list large voice painting.,CUST_000160,Regulatory Block,Pending
+INH_000028,Check Block,2025-08-10,Inhibit placed on check block - Vote billion pull learn yourself thousand man.,CUST_000249,Regulatory Block,Pending
+INH_000002,ACH Debit Block,2025-03-11,Inhibit placed on ach debit block - Civil this oil unit.,CUST_000250,Security Hold,Pending
+INH_000015,Check Block,2025-06-22,Inhibit placed on check block - Dog production energy audience.,CUST_000251,Security Hold,Pending
+INH_000018,Online Access Block,2025-10-03,Inhibit placed on online access block - Without member dog huge less.,CUST_000494,Security Hold,Pending
+INH_000020,Online Access Block,2025-04-27,Inhibit placed on online access block - Situation drug serve role.,CUST_000188,Security Hold,Pending
+INH_000016,Wire Block,2025-09-13,Inhibit placed on wire block - Top will consider up free may both again.,CUST_000015,Payment Block,Removed
+INH_000007,Online Access Block,2025-06-05,Inhibit placed on online access block - Front spring mother skin forward director between.,CUST_000178,Regulatory Block,Removed
+INH_000008,ATM Block,2025-06-14,Inhibit placed on atm block - See raise media machine right reduce.,CUST_000292,Regulatory Block,Removed
+INH_000017,ATM Block,2025-07-19,Inhibit placed on atm block - Real address either special next family.,CUST_000096,Regulatory Block,Removed
+INH_000029,International Block,2025-04-26,Inhibit placed on international block - State job me listen long especially body return.,CUST_000447,Security Hold,Removed
+INH_000030,Wire Block,2025-04-30,Inhibit placed on wire block - Technology admit six growth after increase there.,CUST_000403,Security Hold,Removed

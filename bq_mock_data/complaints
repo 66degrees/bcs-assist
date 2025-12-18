@@ -1,0 +1,51 @@
+complaint_id,complaint_date,service_name,resolution_type,category_name,product_type,customer_id,description,status
+CMP_000037,2024-04-12,Branch Services,Closed,Access Issues,Mortgage,CUST_000481,Score might field step pattern particular agency building.,Closed
+CMP_000004,2025-07-21,Online Banking,Closed,Billing Dispute,Investment Product,CUST_000404,Many face station mission short strategy energy.,Closed
+CMP_000014,2024-04-25,Investment Services,Escalated,Service Quality,Savings Account,CUST_000143,Wear ever stock. Control industry someone picture evening good dinner.,Closed
+CMP_000033,2024-08-01,Mobile App,Escalated,Service Quality,Current Account,CUST_000119,Race amount green once. Center same once agency manager force personal expert.,Closed
+CMP_000009,2024-09-27,Business Banking,Escalated,Account Management,Investment Product,CUST_000316,One government claim what radio understand. If local under natural unit.,Closed
+CMP_000025,2025-12-13,Mortgages,Escalated,Technical Issue,Current Account,CUST_000480,Seven charge watch main return develop.,Closed
+CMP_000034,2024-11-01,Mobile App,Pending Investigation,Billing Dispute,Investment Product,CUST_000218,Current authority sure traditional. Subject bed strong Congress of foot physical here.,Closed
+CMP_000046,2024-12-20,Online Banking,Pending Investigation,Access Issues,Current Account,CUST_000147,Its big according mission would heart sometimes.,Closed
+CMP_000010,2025-06-29,Branch Services,Pending Investigation,Access Issues,Business Account,CUST_000451,North main beautiful nor site.,Closed
+CMP_000030,2025-03-30,Investment Services,Pending Investigation,Service Quality,Business Account,CUST_000132,Major back how table south.,Closed
+CMP_000013,2024-06-13,Branch Services,Refunded,Transaction Error,Investment Product,CUST_000018,Cell actually see process.,Closed
+CMP_000019,2025-09-07,Mobile App,Resolved,Account Management,Business Account,CUST_000192,Can recognize team since short there. Body culture I front.,Closed
+CMP_000018,2024-06-18,Mobile App,Escalated,Transaction Error,Current Account,CUST_000038,Reach wish specific media information letter must. Throw senior news born yet instead food.,Open
+CMP_000026,2025-05-04,Business Banking,Escalated,Transaction Error,Current Account,CUST_000021,Act before necessary or east notice sense military. Us amount whom step.,Open
+CMP_000024,2025-10-12,Business Banking,Escalated,Product Information,Insurance,CUST_000125,Hold movement help require tough attention.,Open
+CMP_000023,2025-11-12,Mobile App,Escalated,Access Issues,Savings Account,CUST_000022,Scene focus customer difference financial measure.,Open
+CMP_000039,2025-04-14,Mobile App,Pending Investigation,Access Issues,Credit Card,CUST_000127,Participant than federal list quality off indicate. Sure I idea hundred cup city once.,Open
+CMP_000038,2024-02-18,Branch Services,Pending Investigation,Billing Dispute,Investment Product,CUST_000338,International sort much significant land. Actually social begin night positive time participant.,Open
+CMP_000011,2024-11-10,Business Banking,Refunded,Technical Issue,Business Account,CUST_000240,Radio manage contain actually picture about. Effect live during situation become own.,Open
+CMP_000001,2025-09-13,Online Banking,Refunded,Billing Dispute,Credit Card,CUST_000342,Major expect word drop little. Admit blue hand.,Open
+CMP_000015,2024-11-29,Branch Services,Resolved,Billing Dispute,Insurance,CUST_000439,Design rest person bed now song. Through reality executive give.,Open
+CMP_000017,2024-05-13,Investment Services,Closed,Access Issues,Investment Product,CUST_000417,Thought likely outside.,Pending
+CMP_000043,2024-11-20,Phone Banking,Closed,Transaction Error,Investment Product,CUST_000416,Mrs its science activity.,Pending
+CMP_000032,2025-04-11,Investment Services,Escalated,Account Management,Business Account,CUST_000022,Rise establish glass reason single three her word.,Pending
+CMP_000050,2024-12-02,Credit Cards,Escalated,Product Information,Savings Account,CUST_000025,Say building charge fear agreement play part. Night project story role car.,Pending
+CMP_000020,2025-12-10,Branch Services,Resolved,Billing Dispute,Current Account,CUST_000430,Officer soon name which treatment note white.,Pending
+CMP_000016,2024-05-12,Credit Cards,Resolved,Account Management,Savings Account,CUST_000304,Often together crime thus view when. Customer sit thing interesting.,Pending
+CMP_000049,2025-02-01,Credit Cards,Resolved,Billing Dispute,Insurance,CUST_000352,Issue ok me hotel build fish more. Painting star practice.,Pending
+CMP_000027,2024-04-25,Credit Cards,Resolved,Technical Issue,Mortgage,CUST_000079,Represent test range front spring will everything. Less five time crime outside treat baby.,Pending
+CMP_000036,2023-12-30,Mortgages,Closed,Billing Dispute,Investment Product,CUST_000289,Lay four base coach hotel information prove miss. Money until write strong shoulder away.,Resolved
+CMP_000035,2025-03-07,Mobile App,Closed,Product Information,Insurance,CUST_000490,Want later provide student. Discover thank ability then.,Resolved
+CMP_000045,2024-03-29,Business Banking,Closed,Service Quality,Business Account,CUST_000318,Significant generation easy fast street after health.,Resolved
+CMP_000044,2025-03-27,Credit Cards,Closed,Access Issues,Savings Account,CUST_000118,Painting might similar hot until daughter house station.,Resolved
+CMP_000006,2024-01-17,Investment Services,Closed,Access Issues,Insurance,CUST_000277,Student push current change month discuss. Trouble ball real away.,Resolved
+CMP_000021,2025-05-20,Credit Cards,Closed,Billing Dispute,Savings Account,CUST_000106,One fund almost price phone continue visit. Wife possible campaign debate director director cause.,Resolved
+CMP_000002,2025-01-05,Online Banking,Escalated,Transaction Error,Mortgage,CUST_000372,Sign culture during increase.,Resolved
+CMP_000007,2024-12-11,Mortgages,Escalated,Account Management,Savings Account,CUST_000273,International education last difference street country manage however.,Resolved
+CMP_000042,2024-03-20,Business Banking,Pending Investigation,Service Quality,Business Account,CUST_000253,Require region open animal. Win garden research morning.,Resolved
+CMP_000047,2025-04-28,Business Banking,Pending Investigation,Service Quality,Credit Card,CUST_000143,Anything account or professional thousand quickly.,Resolved
+CMP_000003,2025-10-27,Branch Services,Pending Investigation,Technical Issue,Mortgage,CUST_000177,Pretty move should pass right shake reflect.,Resolved
+CMP_000029,2024-09-28,Branch Services,Pending Investigation,Access Issues,Insurance,CUST_000436,Task will fly follow teacher. Town mean truth several consider bit age.,Resolved
+CMP_000022,2024-08-31,Mobile App,Pending Investigation,Access Issues,Savings Account,CUST_000118,Fill much star sign.,Resolved
+CMP_000040,2025-03-04,Investment Services,Refunded,Access Issues,Savings Account,CUST_000009,Today learn get fund may worker.,Resolved
+CMP_000031,2024-10-05,Branch Services,Refunded,Service Quality,Mortgage,CUST_000262,We herself three animal.,Resolved
+CMP_000041,2025-10-15,Mortgages,Refunded,Technical Issue,Savings Account,CUST_000118,Fish later idea throw company picture continue.,Resolved
+CMP_000008,2024-03-01,Branch Services,Refunded,Billing Dispute,Savings Account,CUST_000106,Pretty red give indeed behind loss.,Resolved
+CMP_000012,2025-08-28,Mobile App,Resolved,Billing Dispute,Savings Account,CUST_000172,Agency though hold real face enough.,Resolved
+CMP_000048,2025-08-28,Business Banking,Resolved,Account Management,Mortgage,CUST_000211,Travel word sister yeah support message.,Resolved
+CMP_000005,2024-05-18,Online Banking,Resolved,Technical Issue,Investment Product,CUST_000271,Win each claim doctor though behind represent give.,Resolved
+CMP_000028,2024-01-04,Investment Services,Resolved,Product Information,Insurance,CUST_000048,Pm put trip figure hundred street security. Executive thus cut whole him against.,Resolved

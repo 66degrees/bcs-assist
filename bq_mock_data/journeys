@@ -1,0 +1,41 @@
+journey_id,journey_type,journey_date,journey_name,journey_desc,customer_id,status
+JNY_000015,Onboarding,2025-12-14,Credit Card Application,Customer journey for credit card application - Artist the carry section.,CUST_000220,Cancelled
+JNY_000024,Complaint Resolution,2025-12-14,Credit Card Application,Customer journey for credit card application - Six of bit suddenly south rate these.,CUST_000456,Cancelled
+JNY_000021,Onboarding,2025-12-14,Credit Card Application,Customer journey for credit card application - As once whose.,CUST_000331,Cancelled
+JNY_000005,KYC Update,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Affect better economic continue challenge employee stage.,CUST_000261,Cancelled
+JNY_000038,KYC Update,2025-12-14,Investment Account Opening,Customer journey for investment account opening - House politics group.,CUST_000100,Cancelled
+JNY_000034,Service Request,2025-12-14,Mortgage Application,Customer journey for mortgage application - Name many benefit quite four how movie.,CUST_000278,Cancelled
+JNY_000007,Onboarding,2025-12-14,International Wire Setup,Customer journey for international wire setup - A very different data green environment social.,CUST_000322,Completed
+JNY_000006,Product Application,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Throughout two method pass environment most reflect.,CUST_000216,Completed
+JNY_000025,Service Request,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Generation name will.,CUST_000318,Completed
+JNY_000001,Service Request,2025-12-14,Mortgage Application,Customer journey for mortgage application - Group action individual good visit newspaper.,CUST_000110,Completed
+JNY_000011,Complaint Resolution,2025-12-14,Mortgage Application,Customer journey for mortgage application - Partner mean best field themselves expert.,CUST_000197,Completed
+JNY_000030,Product Application,2025-12-14,Mortgage Application,Customer journey for mortgage application - Tonight weight bad compare set him.,CUST_000445,Completed
+JNY_000018,Service Request,2025-12-14,New Business Account Setup,Customer journey for new business account setup - Believe six PM treatment television us guy.,CUST_000103,Completed
+JNY_000008,Product Application,2025-12-14,Online Banking Registration,Customer journey for online banking registration - Window radio official theory cultural agent.,CUST_000017,Completed
+JNY_000026,Service Request,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Point enjoy list beautiful style professor can.,CUST_000352,In Progress
+JNY_000033,Account Opening,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Or environment sound fight kind success.,CUST_000439,In Progress
+JNY_000004,Service Request,2025-12-14,New Business Account Setup,Customer journey for new business account setup - Religious medical want world return.,CUST_000104,In Progress
+JNY_000003,KYC Update,2025-12-14,New Business Account Setup,Customer journey for new business account setup - Less author item yet special.,CUST_000027,In Progress
+JNY_000023,Service Request,2025-12-14,New Business Account Setup,Customer journey for new business account setup - Discuss fish point do war eight live.,CUST_000193,In Progress
+JNY_000040,Product Application,2025-12-14,New Business Account Setup,Customer journey for new business account setup - Stuff court agent rock alone because these.,CUST_000057,In Progress
+JNY_000020,Onboarding,2025-12-14,Online Banking Registration,Customer journey for online banking registration - Coach then expert environment strong.,CUST_000434,In Progress
+JNY_000027,Complaint Resolution,2025-12-14,Online Banking Registration,Customer journey for online banking registration - Modern management deal so.,CUST_000349,In Progress
+JNY_000028,Service Request,2025-12-14,Online Banking Registration,Customer journey for online banking registration - Future media little director special buy.,CUST_000236,In Progress
+JNY_000032,Service Request,2025-12-14,Online Banking Registration,Customer journey for online banking registration - Watch give hair space music successful water.,CUST_000366,In Progress
+JNY_000035,Service Request,2025-12-14,Online Banking Registration,Customer journey for online banking registration - The PM fish personal least.,CUST_000079,In Progress
+JNY_000039,Account Opening,2025-12-14,Online Banking Registration,Customer journey for online banking registration - Side just network special.,CUST_000434,In Progress
+JNY_000002,KYC Update,2025-12-14,Credit Card Application,Customer journey for credit card application - Number fine out everything position quickly.,CUST_000226,On Hold
+JNY_000031,Service Request,2025-12-14,Credit Card Application,Customer journey for credit card application - Girl think crime where hair.,CUST_000369,On Hold
+JNY_000019,Product Application,2025-12-14,International Wire Setup,Customer journey for international wire setup - Organization morning four position.,CUST_000489,On Hold
+JNY_000009,Product Application,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Produce into only citizen action pattern able.,CUST_000236,On Hold
+JNY_000013,Onboarding,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Home ahead there radio.,CUST_000399,On Hold
+JNY_000016,Service Request,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Ground hard past.,CUST_000216,On Hold
+JNY_000010,Service Request,2025-12-14,Mortgage Application,Customer journey for mortgage application - Front break artist suffer wear.,CUST_000131,On Hold
+JNY_000014,Onboarding,2025-12-14,New Business Account Setup,Customer journey for new business account setup - Save skill four find simply fall him.,CUST_000389,On Hold
+JNY_000037,Account Opening,2025-12-14,Investment Account Opening,Customer journey for investment account opening - Particular by test machine really cold.,CUST_000224,Pending
+JNY_000017,Product Application,2025-12-14,Mortgage Application,Customer journey for mortgage application - Prevent itself window box task even.,CUST_000389,Pending
+JNY_000036,KYC Update,2025-12-14,Mortgage Application,Customer journey for mortgage application - Them later authority.,CUST_000491,Pending
+JNY_000012,Complaint Resolution,2025-12-14,New Business Account Setup,Customer journey for new business account setup - Degree shake black think everything specific fine.,CUST_000472,Pending
+JNY_000029,Complaint Resolution,2025-12-14,New Business Account Setup,Customer journey for new business account setup - Threat someone sport nothing.,CUST_000272,Pending
+JNY_000022,Product Application,2025-12-14,Online Banking Registration,Customer journey for online banking registration - Game to growth discuss ago look worry.,CUST_000202,Pending
